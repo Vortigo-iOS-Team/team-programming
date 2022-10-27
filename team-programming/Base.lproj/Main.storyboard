@@ -49,17 +49,27 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Blh-re-i3H">
-                                <rect key="frame" x="0.0" y="66" width="320" height="335"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_image" translatesAutoresizingMaskIntoConstraints="NO" id="Blh-re-i3H">
+                                <rect key="frame" x="0.0" y="66" width="320" height="306"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="335" id="Piy-Ba-3Ix"/>
+                                    <constraint firstAttribute="height" constant="306" id="Piy-Ba-3Ix"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITt-qZ-uRg">
+                                <rect key="frame" x="16" y="113" width="288" height="196"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="ITt-qZ-uRg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2Rr-Mz-gfq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ITt-qZ-uRg" secondAttribute="trailing" constant="16" id="353-6F-uQR"/>
+                            <constraint firstItem="ITt-qZ-uRg" firstAttribute="bottom" secondItem="Blh-re-i3H" secondAttribute="bottom" constant="-63" id="4m7-8r-stV"/>
                             <constraint firstItem="5My-Ih-XUT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="E7O-yq-ft0"/>
+                            <constraint firstItem="ITt-qZ-uRg" firstAttribute="top" secondItem="Blh-re-i3H" secondAttribute="top" constant="47" id="INq-xM-iKw"/>
                             <constraint firstAttribute="trailing" secondItem="Q9O-1G-fA7" secondAttribute="trailing" constant="24" id="MSd-Wj-Wyd"/>
                             <constraint firstItem="Blh-re-i3H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZeC-Aa-9k2"/>
                             <constraint firstItem="Blh-re-i3H" firstAttribute="top" secondItem="5My-Ih-XUT" secondAttribute="bottom" constant="34.189999999999998" id="aWm-jX-Iw7"/>
@@ -75,6 +85,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="background_image" width="375" height="335"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
