@@ -66,9 +66,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQg-EH-5I3">
-                                <rect key="frame" x="127" y="441" width="67" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQg-EH-5I3">
+                                <rect key="frame" x="56" y="463.5" width="208" height="44"/>
+                                <color key="backgroundColor" red="0.32941176470588235" green="0.0" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Tsi-R6-4Pq"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjj-eB-Vgd">
+                                <rect key="frame" x="56" y="515.5" width="208" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
@@ -79,16 +93,22 @@
                             <constraint firstItem="ITt-qZ-uRg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2Rr-Mz-gfq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ITt-qZ-uRg" secondAttribute="trailing" constant="16" id="353-6F-uQR"/>
                             <constraint firstItem="ITt-qZ-uRg" firstAttribute="bottom" secondItem="Blh-re-i3H" secondAttribute="bottom" constant="-63" id="4m7-8r-stV"/>
+                            <constraint firstItem="sQg-EH-5I3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="56" id="9RI-Tg-6d4"/>
+                            <constraint firstItem="xjj-eB-Vgd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="56" id="9ha-pH-f8T"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RPS-Ak-Juz" secondAttribute="trailing" constant="16" id="CKW-z7-dWV"/>
                             <constraint firstItem="RPS-Ak-Juz" firstAttribute="top" secondItem="Blh-re-i3H" secondAttribute="bottom" constant="35" id="Dam-PE-Oln"/>
                             <constraint firstItem="5My-Ih-XUT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="E7O-yq-ft0"/>
+                            <constraint firstItem="xjj-eB-Vgd" firstAttribute="top" secondItem="sQg-EH-5I3" secondAttribute="bottom" constant="8" id="GKH-gF-Cf9"/>
                             <constraint firstItem="ITt-qZ-uRg" firstAttribute="top" secondItem="Blh-re-i3H" secondAttribute="top" constant="47" id="INq-xM-iKw"/>
                             <constraint firstAttribute="trailing" secondItem="Q9O-1G-fA7" secondAttribute="trailing" constant="24" id="MSd-Wj-Wyd"/>
                             <constraint firstItem="Blh-re-i3H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZeC-Aa-9k2"/>
                             <constraint firstItem="Blh-re-i3H" firstAttribute="top" secondItem="5My-Ih-XUT" secondAttribute="bottom" constant="34.189999999999998" id="aWm-jX-Iw7"/>
+                            <constraint firstItem="sQg-EH-5I3" firstAttribute="top" secondItem="RPS-Ak-Juz" secondAttribute="bottom" constant="36" id="c6v-cC-wN5"/>
                             <constraint firstItem="5My-Ih-XUT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="kFU-Ke-m1V"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Blh-re-i3H" secondAttribute="trailing" id="ofw-E0-2H5"/>
                             <constraint firstItem="Q9O-1G-fA7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="swZ-Sb-ZE5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xjj-eB-Vgd" secondAttribute="trailing" constant="56" id="tOB-Ze-jrX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sQg-EH-5I3" secondAttribute="trailing" constant="56" id="zb8-HL-cM3"/>
                             <constraint firstItem="RPS-Ak-Juz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="zwA-Ta-CJh"/>
                         </constraints>
                     </view>
